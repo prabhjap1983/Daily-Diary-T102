@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Training Report</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-nav px-3">
+    <img src="C:\Users\harme\OneDrive\Documents\Training_102\images\Screenshot 2025-07-16 142321.png" alt="Logo" width="60" class="me-3 rounded-circle">
+    <a class="navbar-brand fs-4 fw-bold text-dark" href="#">Home</a>
+    <div class="ms-auto">
+      <!-- <button class="btn btn-certificate me-2" onclick="openPDF('pdfs/certificate.pdf')">🎓 Certificate</button>
+      <button class="btn btn-report" onclick="openPDF('pdfs/final-report.pdf')">📘 Final Report</button> -->
+    </div>
+  </nav>
+
+  <!-- Header Info -->
+  <div class="text-center py-4 header-info">
+    <h2 class="fw-bold">Training TR-102 Report</h2>
+    <p class="mb-0">By <strong>Prabhdeep Kaur</strong>, URN: 2435240, CRN: 2315289</p>
+    <p class="mb-0">Guru Nanak Dev Engineering College, Ludhiana</p>
+    <h5 class="fw-semibold mt-2">4 Week Training at<br><span class="text-primary">STEP GNDEC, Ludhiana</span></h5>
+  </div>
+
+
+  <!-- Day Buttons -->
+<div class="container">
+  <div class="row justify-content-center">
+    <!-- Day 1 to 16 -->
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day1.pdf')">📄 Day 1</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day2.pdf')">📄 Day 2</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day3.pdf')">📄 Day 3</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day4.pdf')">📄 Day 4</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day5.pdf')">📄 Day 5</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day6.pdf')">📄 Day 6</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day7.pdf')">📄 Day 7</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day8.pdf')">📄 Day 8</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day9.pdf')">📄 Day 9</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day10.pdf')">📄 Day 10</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day11.pdf')">📄 Day 11</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day12.pdf')">📄 Day 12</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day13.pdf')">📄 Day 13</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day14.pdf')">📄 Day 14</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day15.pdf')">📄 Day 15</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day16.pdf')">📄 Day 16</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day17.pdf')">📄 Day 17</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day18.pdf')">📄 Day 18</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day19.pdf')">📄 Day 19</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day20.pdf')">📄 Day 20</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day21.pdf')">📄 Day 21</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day22.pdf')">📄 Day 22</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day23.pdf')">📄 Day 23</button></div>
+    <div class="col-auto"><button class="btn btn-day m-1" onclick="openPDF('pdfs/daily_diary_day24.pdf')">📄 Day 24</button></div>
+
+  </div>
+</div>
+
+
+   <!-- Gallery & Projects -->
+<div class="container mt-3">
+  <div class="d-flex justify-content-center flex-wrap gap-2">
+    <button class="btn btn-projects" onclick="openPDF('pdfs/projects.pdf')">💼 Project</button>
+    <button class="btn btn-certificate" onclick="openPDF('pdfs/certificate.pdf')">🎓 Certificate</button>
+    <button class="btn btn-report" onclick="openPDF('pdfs/final-report.pdf')">📘 Final Report</button>
+  </div>
+</div>
+
+
+  <!-- PDF Viewer -->
+  <div class="container mt-5 viewer-box shadow-lg">
+    <h3 class="text-center" id="pdfTitle">Training Report Viewer</h3>
+    <div class="ratio ratio-16x9 mt-3">
+      <iframe id="pdfViewer" src="pdfs/day1.pdf" width="100%" height="100%"></iframe>
+    </div>
+  </div>
+
+  
+  <footer class="text-center py-3 mt-5" style="background: #f8f9fa; color: #555;">
+  © Prabhdeep Kaur | Training Report TR-102 | STEP GNDEC
+</footer>
+
+
+  <!-- Script -->
+  <script>
+    function openPDF(filePath) {
+      document.getElementById('pdfViewer').src = filePath;
+      let name = filePath.split('/').pop().replace('.pdf', '').replace('-', ' ');
+      document.getElementById('pdfTitle').innerText = name.charAt(0).toUpperCase() + name.slice(1);
+    }
+  </script>
+
+</body>
+</html>
